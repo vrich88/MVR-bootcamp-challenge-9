@@ -1,28 +1,41 @@
 
-# dfafgadfgh 
-![Badge](https://img.shields.io/badge/license-Apache&#32;License&#32;2.0-yellow.svg)
+# Sample of Generator 
+![Badge](https://img.shields.io/badge/license-MIT-yellow.svg)
+
 
 ## Table of Contents
 [Description](#description)
+
 [Installation](#installation)
+
 [Usage](#usage)
+
 [Contributors](#contributors)
+
 [Test](#test)
-[Apache&#32;License&#32;2.0License](#license)
+
+[MITLicense](#license)
+
 
 ## Description
-asdfadfs
+This is the sample product of this repo; you can put as much or little description as you want here
+
 ## Installation
-ghdg
+Download this repo and run in a terminal
+
 ## Usage
-jhdgjdsfjgh
+Start the 'node index.js' file in your terminal and answer the questions presented to get a README.md generated
+
 ## Questions
 To see more of my work check out my profile or email me
-    * GitHub: [gsfdgsd](https://github.com/gsfdgsd/)
-    * Email: sdfghsdfh
+* GitHub: [your github name](https://github.com/your github name/)
+* Email: your email
+
 ## Contributors
-hsfghs
+List the people or resources that contributed in completing this
+
 ## Test
-    dfgfdsghs
+if you have a sample attach a link for it here
+
 ## License
-This application is licensed under Apache&#32;License&#32;2.0.
+This application is licensed under MIT.
