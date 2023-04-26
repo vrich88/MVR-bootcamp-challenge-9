@@ -13,6 +13,8 @@ The user is then prompted with a series of questions that will request informati
 The newly generated "README.md" file can then be found in the "sample" directory for further refinements.<br>
 ![screenshot](./assets/images/sc4.png)<br>
 
+[Demo Video](https://drive.google.com/file/d/1azOHRvTB4CpAENgcuIdwmJvJ1owVO4ZS/view)
+
 ## Contributors
 Consulting and guidance used in creation of this repository include peers and resources (in no order) as follows:
 * Lindsey Isaac

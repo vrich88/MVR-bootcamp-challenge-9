@@ -1,5 +1,5 @@
 
-# Sample of Generator 
+# video test 
 ![Badge](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 
@@ -18,24 +18,24 @@
 
 
 ## Description
-This is the sample product of this repo; you can put as much or little description as you want here
+description for video test
 
 ## Installation
-Download this repo and run in a terminal
+install instruct for video test
 
 ## Usage
-Start the 'node index.js' file in your terminal and answer the questions presented to get a README.md generated
+use of video test
 
 ## Questions
 To see more of my work check out my profile or email me
-* GitHub: [your github name](https://github.com/your github name/)
-* Email: your email
+* GitHub: [videotest](https://github.com/videotest/)
+* Email: videotest@gmailio.com
 
 ## Contributors
-List the people or resources that contributed in completing this
+contributors to video test
 
 ## Test
-if you have a sample attach a link for it here
+samples of video test
 
 ## License
 This application is licensed under MIT.
