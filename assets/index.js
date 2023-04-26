@@ -1,7 +1,7 @@
 // require dependencies needed for application
-const inquirer = require(`inquirer`);
 const fs = require(`fs`);
-const generateMarkdown = require("../utils/generateMarkdown");
+const inquirer = require(`inquirer`);
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // queries from user to get input to generate READme.md documentation
 const questions = [
@@ -29,12 +29,13 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select a license for the project:",
-        // copied available options from gitHub; are there more?
+        // copied available options from gitHub; are there more? there are issues around the "space" between words that solutions between java and md seem to conflict with using code to represent &nbsp; or &#32; without adding lots of coding to get around it which I am opting not to do at this time
         choices: [
             "None",
-            "Apache License 2.0",
-            "GNU General Public License v3.0",
-            "MIT", "BSD 2-Clause Simplified License",
+            "Apache&#32;License&#32;2.0",
+            "GNU&nbsp;General&nbsp;Public&nbsp;License&nbsp;v3.0",
+            "MIT", 
+            "BSD 2-Clause Simplified License",
             "BSD 3-Clause New or Revised License",
             "Boost Software License 1.0",
             "Creative Commons Zero v1.0 Universal",
@@ -68,16 +69,12 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFile(fileName, data);
-};
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        console.log(JSON.stringify(data));
-        writeToFile("../sample/README.md", generateMarkdown(data));
+        fs.writeFile("./sample/README.md", generateMarkdown(data), () => {
+            console.log('Go find your file in samples');
+        });
     })
 };
 
